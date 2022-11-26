@@ -65,8 +65,8 @@ export default{
       },
       //更多
       more(){
-        // this.$router.push('/activities')
-        this.$bus.$emit('activities')
+        this.$router.push('/activities')
+        // this.$bus.$emit('activities')
       },
       //点进去具体的信息
       gotoDetail(rows){
